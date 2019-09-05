@@ -139,8 +139,11 @@ def create_audio(chapter,number, out_path):
 
 
 
-# The input for this program is a text file containing the book, the path to the folder it is in,  and the table of contents.
-# The chapters are then downloaded into
+# The input for this program is the name of a text file containing the book to be read aloud,
+#  the path to the folder the text file is in,
+#  the path to a subdirectory to save the audio in
+#  and the table of contents of the book (list of chapter names).
+
 
 book_name = "Faust's Metropolis.txt"
 table_of_contents = [re.sub("^.*: ", "", x) for x in ["III: The Emerging Giant", "IV: From Revolution to Realpolitik", "V: The Rise of Red Berlin", "VI: Imperial Berlin"]]
