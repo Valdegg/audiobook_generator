@@ -108,6 +108,7 @@ def split_chapter(kafli, n_letters):
 
 def create_audio(chapter,number, out_path):
     """
+    Creates a series of small (5000 characters, a few minutes) audio files with the text from 'chapter'. Saved to 'out_path'.
     :param chapter: chapter to be read aloud into path
     :param number: chapter number
     :param out_path: destination folder for audio files
