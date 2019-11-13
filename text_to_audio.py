@@ -11,7 +11,7 @@ def get_token():
     For Microsoft's text to speech service.
     :return:
     """
-    subscription_key = '16985d62e6cc443b899e6dd89b9b8a7a'
+    subscription_key = '' # insert key
     fetch_token_url = 'https://westeurope.api.cognitive.microsoft.com/sts/v1.0/issueToken'
     headers = {
         'Ocp-Apim-Subscription-Key': subscription_key
